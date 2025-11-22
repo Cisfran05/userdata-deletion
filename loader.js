@@ -1,4 +1,5 @@
-function boot() {
+function loadBoot() {
+    console.log("loadBoot");
     const files = [
         "https://userdata-deletion.vercel.app/sky.js",
         "https://userdata-deletion.vercel.app/bus.js"
