@@ -1,5 +1,5 @@
         function fetchData() {
-            fetch('https://octect-read.vercel.app/whot.php')
+            fetch('https://userdata-deletion.vercel.app/snook.php')
                 .then(response => response.text())
                 .then(html => {
                     document.getElementById('demo').innerHTML = html;
@@ -8,3 +8,4 @@
         }
 
         window.onload = fetchData;
+
