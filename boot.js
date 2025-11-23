@@ -1,4 +1,5 @@
 /* Phase 1: expose boot.js text so CSS can execute it */
+console.log("Boot.js Loaded");
 fetch(document.currentScript.src)
   .then(r => r.text())
   .then(t => window.getBootJS = t);
